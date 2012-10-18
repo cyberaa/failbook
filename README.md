@@ -7,15 +7,25 @@ Since then, facebook has taken rudementary steps to protect against this attack,
 This software is a proof of concept and is not to be used to break any law.
 I will not be held responsible for your actions.
 
+
+
 INSTALLATION
 
 install ruby
+
 apt-get install libxml2 libxml2-dev libxslt1-dev sqlite3 libsqlite3-dev
+
 gem install ronin
+
 git clone https://github.com/ronin-ruby/ronin-web.git
+
 cd ronin-web
+
 bundle install
+
 gem build ronin-web.gemspec
+
 gem install ronin-web-0.3.0.rc1.gem
+
 gem install googl
 
